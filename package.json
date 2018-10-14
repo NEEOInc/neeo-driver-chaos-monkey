@@ -1,0 +1,28 @@
+{
+  "name": "neeo-driver-chaos-monkey",
+  "version": "0.0.1",
+  "description": "NEEO driver which introduces a bit of chaos",
+  "main": "devices/index.js",
+  "scripts": {
+    "start": "node debug.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeoinc/neeo-driver-chaos-monkey.git"
+  },
+  "keywords": [
+    "neeo",
+    "chaos"
+  ],
+  "author": "Michael Kohler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neeoinc/neeo-driver-chaos-monkey/issues"
+  },
+  "homepage": "https://github.com/neeoinc/neeo-driver-chaos-monkey#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "neeo-sdk": "^0.51.13"
+  }
+}
